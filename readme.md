@@ -49,5 +49,5 @@ python3 -m app MARLEY-SCP --host 0.0.0.0 -p 104
 
 ## Testing with `findscu` utility
 ```bash
-findscu -v -S -aet TESTMODALITY -aec MARLEY-RIS localhost 104 -k 0008,0050=*
+findscu -v -W -aet TESTMODALITY -aec MARLEY-RIS localhost 104 -k 0008,0050=*
 ```
